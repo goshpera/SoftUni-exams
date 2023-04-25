@@ -25,5 +25,4 @@ while True:
 
 while True:
     commands = input().split("=>")
-
     
