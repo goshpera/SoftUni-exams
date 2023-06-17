@@ -25,9 +25,7 @@ for row in range(rows):
     if "M" in matrix[row]:  # look where is the mouse position
         mouse_position = [row, matrix[row].index("M")]  # index it
         matrix[row][mouse_position[1]] = "*"
-
-    if "C" in matrix[row]:  # finds all the cheese pieces in the matrix
-        cheese_pieces += matrix[row].count("C")  # sums the total count
+    cheese_pieces += matrix[row].count("C")  # sums the total count of cheeses in the matrix
 
 while True:
     direction = input()
