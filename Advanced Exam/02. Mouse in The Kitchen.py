@@ -27,6 +27,7 @@ while True:
 
     #row = mouse_pos[0] + directions[direction][0]
     #col = mouse_pos[1] + directions[direction][1]
+    # TODO : add logic and solve the task
     row, col = mouse_pos
     new_row, new_col = row + directions[direction][0], col + directions[direction][1]
 
